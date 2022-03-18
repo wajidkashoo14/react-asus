@@ -1,35 +1,48 @@
 .aboutus {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-color: aliceblue;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 3rem 5rem;
+  gap: 3rem;
+}
+.heading__aboutus {
+  width: 50vw;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #ce5937;
 }
 .about__info {
-  width: 50%;
+  margin-top: 20rem;
+  height: 100vh;
+  width: 50vw;
+  display: grid;
+  place-items: center;
+  width: 50vw;
+  height: 100%;
   background-color: aliceblue;
 }
 .aboutus-details {
-  width: 100%;
+  height: 100vh;
+  width: 50vw;
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 300;
+
+  text-align: left;
 }
 
-.about__img {
-  background-color: aliceblue;
-}
 .image__aboutus {
-  height: 60rem;
-  width: 80rem;
+  height: 30rem;
+  width: 50rem;
   background-position: center;
   background-size: cover;
-  object-fit: contain;
-}
-
-.aboutus-details {
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin: auto 0;
+  object-fit: cover;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }

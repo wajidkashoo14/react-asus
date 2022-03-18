@@ -5,6 +5,7 @@ function Aboutus() {
   return (
     <div className="aboutus">
       <div className="about__info">
+        <h1 className="heading__aboutus">about us</h1>
         <p className="aboutus-details">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
           dolore voluptates nulla expedita vel nostrum earum dolores
@@ -14,13 +15,8 @@ function Aboutus() {
           exercitationem assumenda odio. Iste aliquam suscipit assumenda!
         </p>
       </div>
-      <div className="aboutus__img">
-        <img
-          className="image__aboutus"
-          src={AboutUsImage}
-          alt="about us image"
-        />
-      </div>
+
+      <img className="image__aboutus" src={AboutUsImage} alt="about us image" />
     </div>
   );
 }
