@@ -1,0 +1,35 @@
+.aboutus {
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 5rem;
+}
+.about__info {
+  width: 50%;
+  background-color: aliceblue;
+}
+.aboutus-details {
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.about__img {
+  background-color: aliceblue;
+}
+.image__aboutus {
+  height: 60rem;
+  width: 80rem;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.aboutus-details {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: auto 0;
+}

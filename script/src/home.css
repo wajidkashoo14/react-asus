@@ -1,0 +1,60 @@
+.home {
+  /* margin-top: 6rem; */
+  position: relative;
+  max-width: 100%;
+  height: 100vh;
+  background-image: url(./Assets/car.jpg);
+  background-position: bottom;
+  background-size: cover;
+  object-fit: cover;
+  padding: 5rem;
+  display: grid;
+  place-items: center;
+  z-index: 1;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 100;
+}
+.heading {
+  margin-top: 25rem;
+  max-width: 100%;
+  height: 100%;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: poppins, sans-serif;
+  text-transform: capitalize;
+  color: aliceblue;
+  z-index: 1000;
+}
+
+.heading__details {
+  width: 100%;
+}
+
+.home__btn {
+  background-color: aliceblue;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  z-index: 5000;
+  border: none;
+  outline: none;
+  color: black;
+  font-family: poppins, sans-serif;
+  padding: 0.5rem 1rem;
+  margin-top: -22rem;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+.home__btn:hover {
+  background-color: black;
+  color: aliceblue;
+  transition: 0.3s all ease;
+}
