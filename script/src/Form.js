@@ -16,6 +16,9 @@ function Form() {
         <input type="email" placeholder="Email" />
         <label>Message</label>
         <textarea placeholder="Type your message here"></textarea>
+        <button type="submit" className="form-btn">
+          Send
+        </button>
       </form>
     </div>
   );

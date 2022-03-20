@@ -11,7 +11,7 @@ function Home() {
         </p>
       </div>
       <div className="overlay"></div>
-      <button type="button" className="home__btn">
+      <button type="submit" className="home__btn">
         book a ride
       </button>
     </div>

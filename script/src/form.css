@@ -25,11 +25,12 @@
 }
 .airport__form input {
   width: 35rem;
-  height: 2.5rem;
+  height: 3rem;
   border: none;
   outline: none;
   border-bottom: 1px solid #96a7bd;
   border-radius: 0.5rem;
+  font-size: 1.2rem;
 }
 
 .airport__form input::placeholder {
@@ -74,4 +75,20 @@
   font-size: 1.2rem;
   font-weight: 500;
   text-transform: capitalize;
+}
+.form-btn {
+  padding: 0.5rem 1rem;
+  background-color: black;
+  color: aliceblue;
+  font-size: 1rem;
+  margin: 1rem 0;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.form-btn:hover {
+  transform: translateY(-5px);
 }

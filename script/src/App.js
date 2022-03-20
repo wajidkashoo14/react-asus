@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Aboutus from "./Aboutus";
 import Airports from "./Airports";
 import Form from "./Form";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Aboutus />
       <Airports />
       <Form />
+      <Footer />
     </>
   );
 }

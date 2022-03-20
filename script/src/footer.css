@@ -1,0 +1,63 @@
+.footer {
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.subscribe {
+  display: block;
+}
+
+.subscribe input {
+  width: 12rem;
+  height: 2.3rem;
+  outline: none;
+  border: 1px solid #c1cad1;
+  border-radius: 0.3rem;
+  margin-right: 1rem;
+}
+
+.subscribe button {
+  font-size: 1.2rem;
+  background-color: aliceblue;
+  color: black;
+  padding: 0.4rem 1.2rem;
+  text-transform: capitalize;
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.subscribe button:hover {
+  background-color: #8698a6;
+}
+
+.subscribe input::placeholder {
+  color: #627686;
+  font-size: 0.9rem;
+}
+
+.subscribe input:focus {
+  padding-left: 0.3rem;
+}
+.footer-list {
+  display: flex;
+  margin-right: 10rem;
+}
+
+.list-item {
+  font-size: 1.5rem;
+  color: aliceblue;
+  padding: 0.5 1rem;
+  margin: 1rem;
+  text-transform: capitalize;
+  transition: all 0.2s;
+}
+
+.list-item:hover {
+  color: blue;
+}
