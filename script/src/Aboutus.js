@@ -17,13 +17,8 @@ function Aboutus() {
           corporis accusantium nostrum sit ipsa, unde quia odit.
         </p>
       </div>
-      <figure className="aboutus__figure">
-        <img
-          className="image__aboutus"
-          src={AboutUsImage}
-          alt="about us image"
-        />
-      </figure>
+
+      <img className="image__aboutus" src={AboutUsImage} alt="about us " />
     </div>
   );
 }

@@ -61,3 +61,24 @@
 .list-item:hover {
   color: blue;
 }
+
+@media only screen and (max-width: 450px) {
+  .footer {
+    width: 100vw;
+    display: block;
+  }
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  .subscribe input {
+    margin-bottom: 1rem;
+  }
+
+  .subscribe input::placeholder {
+    padding-left: 0.3rem;
+  }
+}

@@ -46,3 +46,16 @@ header {
 .navlink:hover {
   color: #0000e8;
 }
+
+@media only screen and (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+  }
+  header {
+    position: fixed;
+    width: 100vw;
+  }
+  .navbar {
+    display: none;
+  }
+}

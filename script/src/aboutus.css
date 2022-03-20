@@ -1,6 +1,6 @@
 .aboutus {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: aliceblue;
   display: flex;
   justify-content: center;
@@ -42,7 +42,7 @@
 }
 
 .image__aboutus {
-  margin-top: 5rem;
+  margin-top: -15rem;
   height: 30rem;
   width: 40rem;
   background-position: center;
@@ -51,4 +51,39 @@
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media only screen and (max-width: 450px) {
+  .aboutus {
+    width: 100vw;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .heading__aboutus {
+    width: 100vw;
+    text-align: center;
+    min-width: 0;
+    font-size: 1.6rem;
+  }
+  .heading__secondary {
+    width: 100vw;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .aboutus-details {
+    /* padding: 1rem; */
+    width: 100vw;
+    font-size: 1rem;
+    text-align: left;
+    line-height: 1.6rem;
+  }
+
+  .image__aboutus {
+    width: 22.5rem;
+    height: 18rem;
+    margin-top: -15rem;
+    /* margin: 0 auto; */
+  }
 }

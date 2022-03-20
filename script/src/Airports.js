@@ -11,7 +11,7 @@ function Airports() {
       </h1>
       <div className="airports__info">
         <div className="airports__image">
-          <img src={Arrivals} className="airport__image" alt="airport image" />
+          <img src={Arrivals} className="airport__image" alt="airport" />
         </div>
         <div className="airports__details">
           <Airport
