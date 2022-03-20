@@ -6,17 +6,24 @@ function Aboutus() {
     <div className="aboutus">
       <div className="about__info">
         <h1 className="heading__aboutus">about us</h1>
+        <h3 className="heading__secondary">let's talk about alfa taxi first</h3>
         <p className="aboutus-details">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta,
-          dolore voluptates nulla expedita vel nostrum earum dolores
-          necessitatibus eos cupiditate! Sequi blanditiis numquam rem eveniet
-          corrupti sint rerum, velit minima magnam quos cumque atque iure
-          molestiae possimus sed fugiat eaque ducimus maiores facere
-          exercitationem assumenda odio. Iste aliquam suscipit assumenda!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minima
+          illo debitis fugiat voluptatem laborum minus! Eaque laborum tempora
+          aliquam ipsum aliquid vero quos nostrum suscipit debitis veniam
+          eveniet aspernatur, impedit unde saepe, iusto soluta temporibus
+          commodi? Voluptate, nesciunt labore officiis odit quos voluptatem?
+          Natus, voluptatem repellendus quaerat nam veritatis harum aperiam
+          corporis accusantium nostrum sit ipsa, unde quia odit.
         </p>
       </div>
-
-      <img className="image__aboutus" src={AboutUsImage} alt="about us image" />
+      <figure className="aboutus__figure">
+        <img
+          className="image__aboutus"
+          src={AboutUsImage}
+          alt="about us image"
+        />
+      </figure>
     </div>
   );
 }

@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem 5rem;
+  padding: 8rem 5rem;
   gap: 3rem;
 }
 .heading__aboutus {
@@ -17,28 +17,34 @@
   font-weight: 600;
   text-shadow: 1px 1px 1px #ce5937;
 }
+
+.heading__secondary {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
 .about__info {
-  margin-top: 20rem;
+  margin-top: 6rem;
   height: 100vh;
-  width: 50vw;
-  display: grid;
-  place-items: center;
-  width: 50vw;
+  width: 40vw;
   height: 100%;
   background-color: aliceblue;
 }
 .aboutus-details {
   height: 100vh;
-  width: 50vw;
+  width: 40vw;
   font-size: 1.2rem;
   font-weight: 300;
-
+  line-height: 2rem;
   text-align: left;
 }
 
 .image__aboutus {
+  margin-top: 5rem;
   height: 30rem;
-  width: 50rem;
+  width: 40rem;
   background-position: center;
   background-size: cover;
   object-fit: cover;

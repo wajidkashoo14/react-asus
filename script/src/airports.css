@@ -1,0 +1,51 @@
+.airports {
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+  padding: 3rem 5rem;
+  text-align: center;
+}
+
+.airports__primary__heading {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-shadow: 1px 1px 1px #ce5937;
+}
+.airports__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.airport {
+  width: 20rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 10rem;
+  border: 1px solid #b5c1d142;
+  padding: 0.5rem;
+  transition: all 0.2s;
+}
+.airport:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.airport__heading {
+  font-weight: 600;
+}
+.aboutus__figure {
+  width: 50rem;
+  height: 40rem;
+}
+
+.airport__image {
+  width: 40rem;
+  height: 40rem;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
