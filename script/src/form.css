@@ -61,7 +61,7 @@
 }
 .airport__form textarea:focus {
   padding-left: 0.5rem;
-  margin-top: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .airport__form__heading {
@@ -93,7 +93,7 @@
   transform: translateY(-5px);
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 520px) {
   .contact__form {
     width: 100vw;
     height: auto;
@@ -105,14 +105,14 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 1rem auto;
+    margin: 1rem 0;
   }
 
   .airport__form input {
-    width: 22rem;
+    width: 21rem;
   }
   .airport__form textarea {
-    width: 22rem;
+    width: 21rem;
   }
   .airport__form__heading {
     font-size: 1.6rem;

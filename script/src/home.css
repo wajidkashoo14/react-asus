@@ -58,7 +58,7 @@
   transition: 0.3s all ease;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 520px) {
   .home {
     padding: 1rem;
     width: 100vw;

@@ -47,7 +47,7 @@ header {
   color: #0000e8;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 520px) {
   body {
     overflow-x: hidden;
   }
