@@ -1,6 +1,6 @@
 import Home from "./Home";
 import Navbar from "./Navbar";
-import { Routes, Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Aboutus from "./Aboutus";
 import Airports from "./Airports";
 import Form from "./Form";
@@ -11,13 +11,21 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Routes>
+        <Switch>
           <Route path="/" exact component={Home} />
+        </Switch>
+        <Switch>
           <Route path="/" exact component={Aboutus} />
+        </Switch>
+        <Switch>
           <Route path="/" exact component={Airports} />
+        </Switch>
+        <Switch>
           <Route path="/" exact component={Form} />
+        </Switch>
+        <Switch>
           <Route path="/" exact component={Footer} />
-        </Routes>
+        </Switch>
       </Router>
     </>
   );
