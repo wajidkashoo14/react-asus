@@ -39,7 +39,6 @@ header {
   text-transform: capitalize;
   margin: auto 1rem;
   cursor: pointer;
-
   transition: all 0.2s;
 }
 
@@ -57,5 +56,8 @@ header {
   }
   .navbar {
     display: none;
+  }
+  .links .navlink {
+    font-size: 1rem;
   }
 }

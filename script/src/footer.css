@@ -73,12 +73,23 @@
     justify-content: center;
     align-items: center;
     padding-top: 2rem;
+    margin-bottom: 2rem;
   }
-  .subscribe input {
+
+  .footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .footer .subscribe input {
     margin-bottom: 1rem;
   }
 
   .subscribe input::placeholder {
     padding-left: 0.3rem;
+  }
+  .list-item {
+    font-size: 1.2rem;
   }
 }

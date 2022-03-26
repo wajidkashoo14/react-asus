@@ -17,6 +17,11 @@
   flex-direction: column;
   margin-left: 30rem;
 }
+.get__in__touch {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  letter-spacing: 0.5rem;
+}
 
 .airport__form label {
   font-size: 1.2rem;
@@ -121,6 +126,7 @@
   .airport__form__heading__secondary {
     font-size: 0.9rem;
     font-weight: 400;
+    width: 90vw;
   }
   .form-btn {
     padding: 0.7rem 1.6rem;

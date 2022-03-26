@@ -7,7 +7,7 @@ function Airports() {
   return (
     <div className="airports">
       <h1 className="airports__primary__heading">
-        airport transfer taxi serivce
+        airport transfer taxi service
       </h1>
       <div className="airports__info">
         <div className="airports__image">
@@ -15,8 +15,8 @@ function Airports() {
         </div>
         <div className="airports__details">
           <Airport
-            airportname="Manchester Airport"
-            price=" £80 one way plus drop off fee"
+            airportname="Heathrow Airport"
+            price=" £250 one way plus drop off fee"
           />
           <Airport
             airportname="Doncaster Sheffield Airport"
@@ -27,7 +27,7 @@ function Airports() {
             price="£80 one way plus drop off fee"
           />
           <Airport
-            airportname="Leeds and Bradford Airport"
+            airportname="Manchester Airport"
             price="£80 one way plus drop off fee"
           />
           <Airport
